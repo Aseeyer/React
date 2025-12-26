@@ -1,0 +1,106 @@
+.auth-root {
+  display: flex;
+  min-height: 100vh;
+}
+
+.auth-left {
+  flex: 0 0 48%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-right {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-inner {
+  width: 78%;
+  max-width: 360px;
+}
+
+.auth-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+}
+
+.primary-btn {
+  padding: 12px;
+  background: #1565ff;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.forgot-row {
+  text-align: right;
+}
+
+.or-sep {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.social-btn {
+  flex: 1;
+  border: 1px solid #ccc;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.signup-line {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link-primary {
+  color: #1565ff;
+  font-weight: 600;
+}
+
+.quote {
+  max-width: 500px;
+  padding: 30px;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.quote-text strong {
+  color: #1565ff;
+}
+
+.quote-author {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
