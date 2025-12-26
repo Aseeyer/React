@@ -1,0 +1,62 @@
+.navbar {
+  background: white;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbarContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: #111;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navLinks a:hover {
+  color: #000;
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.searchInput {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+  width: 180px;
+}
+
+.searchInput:focus {
+  border-color: #000;
+}
+
+.cartBtn {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
